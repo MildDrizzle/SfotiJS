@@ -1,0 +1,71 @@
+@import '../lib/normalize.styl/normalize'
+@import 'fonts'
+@import 'colors'
+
+// Common Styles
+h1,h2,h3,h4,h5,h6,figure
+  margin 0
+  padding 0
+body
+  font-family 'Varela Round'
+  font-size 16px
+
+// ------------ Views ---------------
+
+// Login and Sign Up views
+.Header
+  background url('../assets/bg_header.jpg') center center
+  background-size cover
+  color sf_white
+  text-align center
+
+.Header-Logo
+  margin 0 auto
+  padding 4em 0 1em 0
+  width 150px
+  img
+    width 100%
+
+.Header-copy
+  margin 1em auto
+  font-size 1.5em
+
+.Sociallogin
+  ul
+    list-style-type none
+    margin 0
+    padding 0
+    li
+      margin 1em 0
+
+
+// Buttons
+.btn
+  background sf_gray
+  border-radius 5px
+  color sf_white
+  display inline-block
+  font-size .9em
+  text-align left
+  text-decoration none
+  padding .9em
+  vertical-align middle
+  width 205px
+  //height 32px
+
+  span.fa
+    display inline-block
+    text-align center
+    width 30px
+
+  &.btn-fb
+    background sf_blue_fb
+  &.btn-tw
+    background sf_blue_tw
+
+.text-border-left
+  display inline-block
+  //height 32px
+  //line-height 32px
+  border-left 2px solid sf_white + 20
+  padding-left .5em
