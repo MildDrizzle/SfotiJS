@@ -32,9 +32,26 @@ body
   img
     width 100%
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 750px)
   .Header-Logo
     width 250px
+@media screen and (min-width: 950px)
+  .Header-Logo
+    margin 0
+    width 150px
+    display inline-block
+    position relative
+    top -50px
+    left -350px
+
+.link-login
+  display none
+  position relative
+  top -70px
+  left 350px
+@media screen and (min-width: 950px)
+  .link-login
+    display inline-block
 
 .Header-copy
   margin 1em
@@ -229,6 +246,9 @@ body
 
 .show-desktop
   display none
+
+.link-primary
+  color sf_pink
 
 @media screen and (min-width: 750px)
   .show-mobile
