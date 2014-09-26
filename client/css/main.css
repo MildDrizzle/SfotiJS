@@ -204,6 +204,7 @@ body {
   background-size: cover;
   color: #fff;
   text-align: center;
+  height: 100vh;
 }
 .Header-Logo {
   margin: 0 auto;
@@ -219,11 +220,48 @@ body {
 }
 .Sociallogin ul {
   list-style-type: none;
-  margin: 0;
+  margin: 2em 0;
   padding: 0;
 }
 .Sociallogin ul li {
   margin: 1em 0;
+}
+.Locallogin {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.Locallogin ul {
+  display: inline-block;
+  background: #fff;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.Locallogin ul li {
+  display: inline-block;
+  padding: 1em;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Locallogin ul li:first-child {
+  border-right: 1px solid #b7b7b7;
+}
+.Locallogin-link {
+  display: inline-block;
+  color: #b7b7b7;
+  font-size: 0.8em;
+}
+.Marketing {
+  margin: 0 auto;
+  width: 100%;
+}
+.Marketing-copy figure img {
+  max-width: 100%;
+  height: auto;
 }
 .btn {
   background: #b7b7b7;

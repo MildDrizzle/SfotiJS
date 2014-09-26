@@ -18,6 +18,7 @@ body
   background-size cover
   color sf_white
   text-align center
+  height 100vh
 
 .Header-Logo
   margin 0 auto
@@ -33,10 +34,47 @@ body
 .Sociallogin
   ul
     list-style-type none
-    margin 0
+    margin 2em 0
     padding 0
     li
       margin 1em 0
+
+.Locallogin
+  position absolute
+  bottom 0
+  width 100%
+  ul
+    display inline-block
+    background sf_white
+    list-style-type none
+    text-align center
+    margin 0
+    padding 0
+    width 100%
+    li
+      display inline-block
+      padding 1em
+      width 30%
+      margin 0 auto
+      text-align center
+      &:first-child
+        border-right 1px solid sf_gray
+
+.Locallogin-link
+  display inline-block
+  color sf_gray
+  font-size .8em
+
+.Marketing
+  margin 0 auto
+  width 100%
+
+.Marketing-copy
+  figure
+    img
+      max-width 100%
+      height auto
+
 
 
 // Buttons
