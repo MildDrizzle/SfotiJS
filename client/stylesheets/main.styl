@@ -13,13 +13,17 @@ body
 // ------------ Views ---------------
 
 // Login and Sign Up views
-.Header
+.Header-Landing
   background url('../assets/bg_header.jpg') center center
   background-size cover
   background-position 38em 0
   color sf_white
   text-align center
   height 100vh
+
+@media screen and (min-width: 650px)
+  .Header-Landing
+    background-position center center
 
 .Header-Logo
   margin 0 auto
@@ -28,9 +32,19 @@ body
   img
     width 100%
 
+@media screen and (min-width: 768px)
+  .Header-Logo
+    width 250px
+
 .Header-copy
   margin 1em
   font-size 1.5em
+
+@media screen and (min-width: 950px)
+  .Header-copy
+    font-size 3em
+    width 600px
+    margin 0 auto
 
 .Sociallogin
   ul
@@ -71,16 +85,47 @@ body
   width 100%
   border-bottom 1px solid sf_gray + 40
 
+@media screen and (min-width 750px)
+  .Marketing
+    width 750px
+    margin 0 auto
+
 .Marketing-copy
   figure
     img
-      max-width 100%
-      height auto
+      width 100%
+.Marketing-copy-text
+    h3
+      text-align center
+      margin .5em
 
-  h3
-    text-align center
-    margin .5em
+@media screen and (min-width 750px)
+  .Marketing-copy
+    figure
+      width 200px
+      height 200px
+      overflow hidden
+      border-radius 100%
+    &:nth-child(even)
+      .Marketing-copy-text
+        position relative
+        left -200px
+      figure
+        position relative
+        left 500px
 
+  .Marketing-copy-text
+    font-size 1.2em;
+    display inline-block
+    width 500px
+    position relative
+    top -4em
+    h3
+      text-align left
+      margin-left 2em
+    p
+      text-align left !important
+      margin-left 2.4em
 
 // Footer
 .Footer
@@ -181,3 +226,12 @@ body
 
 .text-2x
   font-size 1.5em;
+
+.show-desktop
+  display none
+
+@media screen and (min-width: 750px)
+  .show-mobile
+    display none
+  .show-desktop
+    display inline-block
