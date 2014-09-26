@@ -66,7 +66,7 @@ body
   font-size .8em
 
 .Marketing
-  margin 0 auto
+  margin 1em auto 2em auto
   width 100%
 
 .Marketing-copy
@@ -75,11 +75,55 @@ body
       max-width 100%
       height auto
 
+  h3
+    text-align center
+    margin .5em
+
+// Forms
+.Form-login
+  //text-align center
+  margin 1em auto
+  padding 1em 0 2em 0
+  border-top 1px solid sf_gray + 40
+  border-bottom 1px solid sf_gray + 40
+  h2
+    margin .5em auto
+    text-align center
+    font-size 1.2em
+    //padding 1.2em
+  form
+    width 250px
+    margin 0 auto
+
+
+.Form-input
+  border 1px solid sf_gray
+  border-radius 5px
+  color sf_gray
+  display inline-block
+  padding .6em
+  margin .3em 0
+  //width 100%
+  span.fa
+    display inline-block
+    text-align center
+    width 30px
+  input
+    border 0
+    margin 0
+    padding 0
+    box-sizing border-box
+    &:focus
+      border 0
+      outline-offset 0
+  &:last-of-type
+    margin-bottom .7em
 
 
 // Buttons
 .btn
   background sf_gray
+  border 0
   border-radius 5px
   color sf_white
   display inline-block
@@ -100,10 +144,19 @@ body
     background sf_blue_fb
   &.btn-tw
     background sf_blue_tw
+  &.btn-primary
+    text-align center
+    color sf_white
+    background sf_pink
+    width 244px
 
 .text-border-left
   display inline-block
-  //height 32px
-  //line-height 32px
   border-left 2px solid sf_white + 20
   padding-left .5em
+
+.text-gray
+  color sf_gray
+
+.text-center
+  text-align center

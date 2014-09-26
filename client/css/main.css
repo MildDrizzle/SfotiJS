@@ -256,15 +256,61 @@ body {
   font-size: 0.8em;
 }
 .Marketing {
-  margin: 0 auto;
+  margin: 1em auto 2em auto;
   width: 100%;
 }
 .Marketing-copy figure img {
   max-width: 100%;
   height: auto;
 }
+.Marketing-copy h3 {
+  text-align: center;
+  margin: 0.5em;
+}
+.Form-login {
+  margin: 1em auto;
+  padding: 1em 0 2em 0;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.Form-login h2 {
+  margin: 0.5em auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+.Form-login form {
+  width: 250px;
+  margin: 0 auto;
+}
+.Form-input {
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  color: #b7b7b7;
+  display: inline-block;
+  padding: 0.6em;
+  margin: 0.3em 0;
+}
+.Form-input span.fa {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+}
+.Form-input input {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Form-input input:focus {
+  border: 0;
+  outline-offset: 0;
+}
+.Form-input:last-of-type {
+  margin-bottom: 0.7em;
+}
 .btn {
   background: #b7b7b7;
+  border: 0;
   border-radius: 5px;
   color: #fff;
   display: inline-block;
@@ -286,8 +332,20 @@ body {
 .btn.btn-tw {
   background: #60a9de;
 }
+.btn.btn-primary {
+  text-align: center;
+  color: #fff;
+  background: #cb2f70;
+  width: 244px;
+}
 .text-border-left {
   display: inline-block;
   border-left: 2px solid #fff;
   padding-left: 0.5em;
+}
+.text-gray {
+  color: #b7b7b7;
+}
+.text-center {
+  text-align: center;
 }
