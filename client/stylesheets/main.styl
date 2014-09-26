@@ -16,6 +16,7 @@ body
 .Header
   background url('../assets/bg_header.jpg') center center
   background-size cover
+  background-position 38em 0
   color sf_white
   text-align center
   height 100vh
@@ -28,7 +29,7 @@ body
     width 100%
 
 .Header-copy
-  margin 1em auto
+  margin 1em
   font-size 1.5em
 
 .Sociallogin
@@ -68,6 +69,7 @@ body
 .Marketing
   margin 1em auto 2em auto
   width 100%
+  border-bottom 1px solid sf_gray + 40
 
 .Marketing-copy
   figure
@@ -78,6 +80,23 @@ body
   h3
     text-align center
     margin .5em
+
+
+// Footer
+.Footer
+  background sf_black
+  padding 1em 2em
+  img
+    display inline-block
+    width 75px
+
+.Footer-links
+  float right
+  a
+    color sf_white
+    padding-right 1em
+    &:last-child
+      padding-right 0
 
 // Forms
 .Form-login
@@ -160,3 +179,6 @@ body
 
 .text-center
   text-align center
+
+.text-2x
+  font-size 1.5em;
