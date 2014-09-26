@@ -24,7 +24,8 @@
     "angular": "~1.2.25",
     "angular-route": "~1.2.25",
     "angular-resource": "~1.2.25",
-    "fontawesome": "~4.2.0"
+    "fontawesome": "~4.2.0",
+    "jquery": "~2.1.1"
   },
   "devDependencies": {
     "normalize.styl": "~3.0.0"
